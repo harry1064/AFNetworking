@@ -1337,6 +1337,7 @@
 		};
 		299522401BBF104D00859F49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A22554229CE8F300FD2165 /* Release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
