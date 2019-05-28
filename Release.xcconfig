@@ -1,0 +1,12 @@
+//
+//  Release.xcconfig
+//  AFNetworking
+//
+//  Created by Harpreet Singh on 28/5/2019.
+//  Copyright © 2019 AFNetworking. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "mangle.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1 $(MANGLING_DEFINES)

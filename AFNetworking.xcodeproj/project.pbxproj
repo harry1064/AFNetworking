@@ -232,6 +232,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10A22553229CE8D900FD2165 /* mangle.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = mangle.xcconfig; sourceTree = SOURCE_ROOT; };
+		10A22554229CE8F300FD2165 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		1BF9F95F1C87832B00F1F35A /* AFImageResponseSerializerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageResponseSerializerTests.m; sourceTree = "<group>"; };
 		1F083A4920364648004D80C7 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFCompatibilityMacros.h; sourceTree = "<group>"; };
 		1F6F7DF51F1703A100C979D0 /* Let's Encrypt Authority X3.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Let's Encrypt Authority X3.cer"; sourceTree = "<group>"; };
@@ -476,6 +478,8 @@
 		2995222F1BBF104D00859F49 = {
 			isa = PBXGroup;
 			children = (
+				10A22553229CE8D900FD2165 /* mangle.xcconfig */,
+				10A22554229CE8F300FD2165 /* Release.xcconfig */,
 				299522451BBF125A00859F49 /* AFNetworking */,
 				299522851BBF13C700859F49 /* UIKit+AFNetworking */,
 				2995223B1BBF104D00859F49 /* Supporting Files */,
@@ -819,6 +823,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 2995222F1BBF104D00859F49;
@@ -1430,6 +1435,7 @@
 		};
 		299522431BBF104D00859F49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10A22554229CE8F300FD2165 /* Release.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
 				BITCODE_GENERATION_MODE = bitcode;
